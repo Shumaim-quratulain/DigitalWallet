@@ -20,8 +20,5 @@ __pycache__/
 # macOS
 .DS_Store
 
-# Sub-projects are separate repos
-wallet-backend/
-wallet-frontend/
-wallet-ml-api/
-wallet-ml-training/
+# Local secrets
+**/application-local.properties

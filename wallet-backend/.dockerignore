@@ -1,0 +1,8 @@
+.gradle
+app/build
+app/bin
+out
+*.iml
+*.log
+*.class
+**/application-local.properties

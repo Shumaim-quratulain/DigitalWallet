@@ -1,0 +1,5 @@
+# Copy to application-local.properties (git-ignored) and fill in real values.
+spring.datasource.password=change-me
+spring.rabbitmq.password=guest
+# At least 32 characters
+jwt.secret=change-me-to-a-random-string-of-32+-chars
