@@ -1,0 +1,27 @@
+# Runtime logs written by ./start.sh
+.logs/
+
+# Java / Gradle
+wallet-backend/build/
+wallet-backend/app/build/
+wallet-backend/.gradle/
+wallet-backend/app/bin/
+wallet-backend/app.jar
+
+# Node
+wallet-frontend/node_modules/
+wallet-frontend/dist/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Sub-projects are separate repos
+wallet-backend/
+wallet-frontend/
+wallet-ml-api/
+wallet-ml-training/
